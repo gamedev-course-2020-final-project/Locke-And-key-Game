@@ -91,8 +91,8 @@ Picking  objects will be done by  mouse clicking.
 
 
 ### Menu: (asset)
-- [MenuController](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/MenuScripts/MenuController.cs)
-- [init_LoadPreferences](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/MenuScripts/Init_LoadPreferences.cs)
+- [MenuController](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Menu/MenuController.cs)
+- [init_LoadPreferences](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Menu/Init_LoadPreferences.cs)
 
 ### Mirror:
 - [BreakMirror](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
@@ -103,11 +103,11 @@ Picking  objects will be done by  mouse clicking.
 
 
 ### Dialogue:
-- [Dialogue](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/Dialogue.cs
+- [Dialogue](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Dialogue/Dialogue.cs
 ) - Represents the content of the dialog that will display
-- [DialogueManager](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/DialogueManager.cs
+- [DialogueManager](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Dialogue/DialogueManager.cs
 ) - Responsible for opening and closing the dialogue and displaying the details on the screen
-- [DialogueTrigger](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/DialogueTrigger.cs
+- [DialogueTrigger](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Dialogue/DialogueTrigger.cs
 ) - Responsible for starting the dialogue
 
 
