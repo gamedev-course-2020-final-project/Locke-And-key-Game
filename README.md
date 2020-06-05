@@ -69,25 +69,25 @@ Picking  objects will be done by  mouse clicking.
 
 ## Scripts
 ### Player:
-- [Mover](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/Mover.cs) - Moving the player
-- [HealthBarPlayer](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/HealthBarPlayer.cs) - Represents the Health of the player  in the game
-- [PickingKey](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/PickingKey.cs) - This behavior is make the player pick up key from the floor
-- [PlayerKeys](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/PlayerKeys.cs) - The collection of keys the player has already encountered
+- [Mover](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Player/Mover.cs) - Moving the player
+- [HealthBarPlayer](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Player/HealthBarPlayer.cs) - Represents the Health of the player  in the game
+- [PickingKey](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Player/PickingKey.cs) - This behavior is make the player pick up key from the floor
+- [PlayerKeys](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Player/PlayerKeys.cs) - The collection of keys the player has already encountered
 
 ### Keys:
-- [KeyProperties](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/keys/KeyProperties.cs) - This class contains all key properties as: holes it open, audio source, current hole that opened. 
-- [PickingUp](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/keys/PickingUp.cs) - This class allows the key behavior to be in the player's hand when the player clicks it with the mouse. 
+- [KeyProperties](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/keys/KeyProperties.cs) - This class contains all key properties as: holes it open, audio source, current hole that opened. 
+- [PickingUp](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/keys/PickingUp.cs) - This class allows the key behavior to be in the player's hand when the player clicks it with the mouse. 
 
 ### Holes:
-- [HoleActions](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Holes/HoleActions.cs) - This class allow specify which key the hole belongs to and which key animation will be triggered when you click the hole with the mouse.
+- [HoleActions](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Holes/HoleActions.cs) - This class allow specify which key the hole belongs to and which key animation will be triggered when you click the hole with the mouse.
 
 ### Key Cards:
-- [Card](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/KeyCards/Card.cs) - Create a Card object.
-- [CardDisplay](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/KeyCards/CardDisplay.cs) - Display the card on the screen with all its details and close
+- [Card](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/KeyCards/Card.cs) - Create a Card object.
+- [CardDisplay](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/KeyCards/CardDisplay.cs) - Display the card on the screen with all its details and close
 
 ### Levels:
-- [OpenGame](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Levels/OpenGame.cs) - Represents the first scene in the game(just show the house from outside).
-- [Level1](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Levels/Level1.cs) - Represents the first scene(level) at KeyHouse, the level1 contains some states that the player may be during the level.
+- [OpenGame](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Levels/OpenGame.cs) - Represents the first scene in the game(just show the house from outside).
+- [Level1](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Levels/Level1.cs) - Represents the first scene(level) at KeyHouse, the level1 contains some states that the player may be during the level.
 
 
 ### Menu: (asset)
@@ -95,11 +95,11 @@ Picking  objects will be done by  mouse clicking.
 - [init_LoadPreferences](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/MenuScripts/Init_LoadPreferences.cs)
 
 ### Mirror:
-- [BreakMirror](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
+- [BreakMirror](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
 
 
 ### Health Bar:
-- [HealthBar](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/HealthBar.cs)
+- [HealthBar](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/HealthBar.cs)
 
 
 ### Dialogue:
@@ -112,7 +112,7 @@ Picking  objects will be done by  mouse clicking.
 
 
 ### Button:
-- [DisableButton](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/DisableButton.cs) - Deletes the button when pressed.
+- [DisableButton](https://github.com/gamedev-course-2020-final-project/Locke-And-key-Game/blob/master/Assets/scripts/DisableButton.cs) - Deletes the button when pressed.
 
 
 ## Animation:
