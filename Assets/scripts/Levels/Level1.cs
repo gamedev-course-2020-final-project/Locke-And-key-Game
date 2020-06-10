@@ -37,7 +37,7 @@ public class Level1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+       
         state1();
         state2();
     }

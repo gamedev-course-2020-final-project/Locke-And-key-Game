@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue {
+public class Dialogue
+{
 
 	public string name;
-	
+
 
 	[TextArea(1, 10)]
 	public string[] sentences;
@@ -18,7 +19,7 @@ public class Dialogue {
 
 	public string[] ChooseSentences(string tag)
 	{
-		
+
 		switch (tag)
 		{
 			case "HelloGameScene2":
@@ -35,6 +36,6 @@ public class Dialogue {
 
 		return sentences;
 	}
-	
+
 
 }

@@ -3787,7 +3787,7 @@ MonoBehaviour:
   m_Text: 'Player Moving is done using the arrow keys.
 
 
-    
+
 
     Picking up objects
     and using them will be done by mouse clicking.'
@@ -4951,7 +4951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: Bode
-    currentKey: {fileID: 0}
     sentences:
     - Oh no ! Your mom is stuck in the mirror!
     - Take the mirror key and look for another mirror to save your mother!
@@ -13931,7 +13930,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: Bode
-    currentKey: {fileID: 0}
     sentences:
     - Welcome Bode  to the Locke family KeyHouse!
     - Listen to the whispering voice and you'll find the first magical key
