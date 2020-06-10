@@ -100,6 +100,7 @@ public class Level1 : MonoBehaviour
             Animator mom_animator = mother.GetComponent<Animator>();
             mom_animator.SetBool("isMission1Start", true);
             mom_animator.Play("mission1");
+            player.GetComponent<Mover>().enabled = false;
             yield return new WaitForSeconds(10);
             Destroy(mother);
             StartCoroutine(clothMirror.GetComponent<BreakMirror>().Break());
@@ -107,7 +108,10 @@ public class Level1 : MonoBehaviour
             mirrorKey.GetComponent<Animator>().enabled = false;
             GameObject text = GameObject.Find("New Text");
             text.GetComponent<MeshRenderer>().enabled = true;
+            yield return new WaitForSeconds(2);
+            GameObject.Find("EnvelopeButton1").GetComponent<DialogueTrigger>().TriggerDialogue();
             yield return new WaitForSeconds(6);
+            player.GetComponent<Mover>().enabled = true;
             text.GetComponent<MeshRenderer>().enabled = false;
             isSecond = true;
         }
