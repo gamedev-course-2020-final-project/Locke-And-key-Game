@@ -12,7 +12,7 @@ public class PickingKey : MonoBehaviour
 
     private bool isPicked = false;
 
-  
+    private Light myLight;
     public GameObject currentCard;
  
     
@@ -24,7 +24,7 @@ public class PickingKey : MonoBehaviour
     {
         player_animator = this.GetComponent<Animator>();
         player_keys = this.GetComponent<PlayerKeys>();
-      
+        myLight = GameObject.Find("Spot Light Key").GetComponent<Light>();
     }
 
 
@@ -69,6 +69,7 @@ public class PickingKey : MonoBehaviour
     {
         this.isPicked = true;
         current_key.GetComponent<KeyProperties>().audio2();
+        myLight.enabled = false;
     }
 
 

@@ -20,9 +20,9 @@ public class Level1 : MonoBehaviour
     private Animator mirror_key_animator;
     private bool isFirst = true;
     private bool isSecond = false;
-
+    private Dialogue dialogue;
     
-   
+
 
 
 
@@ -37,7 +37,7 @@ public class Level1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+       // FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         state1();
         state2();
     }
@@ -66,7 +66,7 @@ public class Level1 : MonoBehaviour
         AnimatorStateInfo state = mirror_key_animator.GetCurrentAnimatorStateInfo(0);
         
         //if the animation of key in cloth mirror finish start the first mission
-        if (state.IsName("Rotate") && state.normalizedTime > 0.9f && state.normalizedTime < 1f)
+        if (state.IsName("Rotate") && state.normalizedTime > 0.3f && state.normalizedTime < 1f)
         {
             
             StartCoroutine(playMotherAnimation());
