@@ -37,7 +37,9 @@ public class Level1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
+        //GameObject.Find("control").SetActive(true);
+
         state1();
         state2();
     }

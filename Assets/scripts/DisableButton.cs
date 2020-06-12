@@ -6,18 +6,18 @@ using UnityEngine.UI;
 
 public class DisableButton : MonoBehaviour
 {
-    public Button openBtn;
+    public Button deleteBtn;
     // Start is called before the first frame update
     void Start()
     {
-        openBtn = this.GetComponent<Button>();
-        openBtn.onClick.AddListener(TaskOnClick);
+        deleteBtn = this.GetComponent<Button>();
+        deleteBtn.onClick.AddListener(TaskOnClick);
     }
 
     private void TaskOnClick()
     {
         
-        Destroy(openBtn.gameObject);
+        Destroy(deleteBtn.gameObject);
        
     }
 
