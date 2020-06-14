@@ -48,7 +48,7 @@ ReflectionProbe:
   m_UpdateFrequency: 0
   m_BoxSize: {x: 14.123701, y: 9.740181, z: 10.274475}
   m_BoxOffset: {x: 3.9161806, y: 2.836853, z: 2.035451}
-  m_NearClip: 0.01
+  m_NearClip: 0.1
   m_FarClip: 1000
   m_ShadowDistance: 100
   m_ClearFlags: 1
@@ -183,5 +183,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 109.94501, y: 0.98483735, z: 1.0000004}
-  m_Center: {x: -5.955909, y: 0.0075811804, z: -0.00000012315043}
+  m_Size: {x: 424.46973, y: 0.98483753, z: 6.826952}
+  m_Center: {x: -71.22353, y: 0.007581182, z: -0.06591076}
