@@ -35,7 +35,7 @@ public class PickingUp : MonoBehaviour
         
     }
 
-    private void MakePlayerHoldTheKey()
+    public void MakePlayerHoldTheKey()
     {
         player.GetComponent<PickingKey>().setCurrentKey(this.gameObject.name, this.gameObject);
     }

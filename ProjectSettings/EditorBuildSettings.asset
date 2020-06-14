@@ -16,5 +16,8 @@ EditorBuildSettings:
     guid: 412736d7fc3e9b148b4101cd8c072479
   - enabled: 1
     path: Assets/Scenes/MirrorRoom.unity
+    guid: 8b04b77c107d2414a82f6e2661671d35
+  - enabled: 0
+    path: Assets/Scenes/MirrorRoom-old.unity
     guid: a9e52b891dfb5194db862d49e432fea7
   m_configObjects: {}

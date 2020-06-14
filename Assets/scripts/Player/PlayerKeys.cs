@@ -15,6 +15,7 @@ public class PlayerKeys : MonoBehaviour
     // The name of key should be on tamplate: "<what the key open> key"
     public void addKey(string name, GameObject key)
     {
-        keys.Add(name, key);
+        if(!keys.ContainsKey(name))
+            keys.Add(name, key);
     }
 }

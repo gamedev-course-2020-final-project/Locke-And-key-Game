@@ -86,6 +86,7 @@ public class Level1 : MonoBehaviour
             if (state.IsName("Rotate2") && state.normalizedTime > 0.9f && state.normalizedTime < 1f)
             {
                 Debug.Log("state2 begin");
+                mirror_key_animator.enabled = false;
                 DontDestroyOnLoad(player);
                 DontDestroyOnLoad(mirrorKey);
                 SceneManager.LoadScene("MirrorRoom");

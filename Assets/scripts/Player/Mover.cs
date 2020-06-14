@@ -6,13 +6,13 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     [Tooltip("How many seconds the object remains in walk mode")] [SerializeField] float duration = 1f;
-    Animator animator;
+    [SerializeField] Animator animator;
     [SerializeField] float speed = 8f;
     [SerializeField] float rotationSpeed = 50f;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = this.gameObject.GetComponent<Animator>();
     }
 
 
