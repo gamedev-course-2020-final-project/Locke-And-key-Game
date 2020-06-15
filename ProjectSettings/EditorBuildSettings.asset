@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MirrorRoom.unity
     guid: 8b04b77c107d2414a82f6e2661671d35
-  - enabled: 0
-    path: Assets/Scenes/MirrorRoom-old.unity
-    guid: a9e52b891dfb5194db862d49e432fea7
+  - enabled: 1
+    path: Assets/cemetery halloween set/Demo/dark_scene.unity
+    guid: 9ada07f73fd6cce47834106888ee8a4d
   m_configObjects: {}

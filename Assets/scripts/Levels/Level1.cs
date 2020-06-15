@@ -37,8 +37,10 @@ public class Level1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //GameObject.Find("control").SetActive(true);
+        //  GameObject.Find("ControlKey").GetComponent<enableObject>().DisplayObject();
+        // GameObject.Find("OpenSceneButton").GetComponent<DialogueTrigger>().TriggerDialogue();
+        //GameObject.Find("OpenSceneButton").SetActive(false);
+        //Destroy(GameObject.Find("OpenSceneButton"));
 
         state1();
         state2();

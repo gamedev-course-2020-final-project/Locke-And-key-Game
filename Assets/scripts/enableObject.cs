@@ -13,6 +13,7 @@ public class enableObject : MonoBehaviour
     void Start()
     {
         gameObject = this.GetComponent<GameObject>();
+      
         closeBtn.onClick.AddListener(TaskOnClick);
         
     }
@@ -24,6 +25,13 @@ public class enableObject : MonoBehaviour
 
      //   Destroy(closeBtn.gameObject);
         gameObject.SetActive(false);
+
+    }
+
+    public void DisplayObject()
+    {
+
+       gameObject.SetActive(true);
 
     }
 }
